@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Bornevia Quiz </title>
+  <meta name="description" content="No longer than 155 characters." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+  <style>
+  .progressbar {
+    display: none;
+  }
+  body {
+    text-align: center;
+    margin: 0 auto;
+  }
+  #download1, #download2 {
+    padding: 20px;
+    background: #4DAF7C;
+    width: 250px;
+    text-align: center;
+    margin: 10px auto;
+  }
+  #res, #error {
+    margin: 20px;
+  }
+  progress{
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <h1>Merge Duplicate</h1>
+  <div id="fc">
+    <form>
+      <input type='file' id='csvlib' name="csv" />
+    </form>
+  </div>
+  <div id="raw"></div>
+  <div id="error"></div>
+  <div id="download1"></div>
+
+  <h1>Angka Ajaib</h1>
+  <form>
+    <input type='file' id='getangka' />
+  </form>
+
+  <div id="res"></div>
+  <div id="error2"></div>
+  <div id="download2"><progress class="progressbar"></progress></div>
+</div>
+
+ <script type="text/javascript" src="src/lodash.js"></script>
+ <script type="text/javascript" src="papaparse.js"></script>
+ <script type="text/javascript" src="module1.js"></script>
+ <script type="text/javascript" src="module2.js"></script>
+</body>
+</html>
