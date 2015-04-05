@@ -5,7 +5,6 @@ http://chunk.io/f/f45bae50e6a54e61aeb632a280bcdcfb
 <ul>
   <li>bornevia1.js</li>
   <li>papaparse.js</li>
-  <li>src/getFile.js</li>
   <li>src/sanitize.js</li>
   <li>src/saveTo.js</li>
 </ul>
